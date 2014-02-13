@@ -4,15 +4,14 @@ html {
 body {
   background: #3d4349;
   font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   height: 100%;
   color: #333;
 }
 ::selection,
-::-moz-selection,
 ::-webkit-selection {
-  background: #b2cce6;
-  color: color-background;
+  background: #f15501;
+  color: #fff;
 }
 #header {
   height: auto;
