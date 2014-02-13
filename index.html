@@ -108,6 +108,62 @@
           
 <div class="date">
 
+<time datetime="2014-02-13T09:13:45.000Z"
+      
+      data-updated="true"
+       itemprop="datePublished">
+  2月 13 2014
+</time>
+
+
+
+
+
+</div>
+
+          
+
+
+          
+	</div>
+        <h1 class="title" itemprop="name">
+          <a href="/2014/02/13/crlf/" itemprop="url">
+            warning: LF will be replaced by CRLF</a>
+        </h1>
+        <div class="entry-content" itemprop="articleBody">
+          
+            <p>在window7下使用git的时候，建立一个新的库</p>
+<figure class="highlight"><pre>git init
+</pre></figure>
+
+<p>然后再把文件添加到库中</p>
+<figure class="highlight"><pre>git <span class="built_in">add</span> -A
+</pre></figure>
+
+<p>但是出现了错误提示:</p>
+<figure class="highlight"><pre><span class="attribute">warning</span>: <span class="string">LF will be replaced by CRLF...</span>
+</pre></figure>
+
+<p>解决办法:</p>
+<p>在 <code>git bash</code> 输入下面的命令：</p>
+<figure class="highlight"><pre>git config --<span class="keyword">global</span> core.autocrlf <span class="keyword">false</span>
+</pre></figure>
+
+
+          
+        </div>
+
+
+</article>
+
+
+
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  
+	<div class="meta">
+          
+<div class="date">
+
 <time datetime="2014-02-13T07:21:21.000Z"
       
       data-updated="true"
