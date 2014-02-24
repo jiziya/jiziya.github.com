@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Hello World | 22:34</title>
+  <title>mongodb显示Unclean shutdown detected mongodb | 22:34</title>
   <meta name="author" content="22:34">
   
-  <meta name="description" content="本来是用阿里云搭的hexo，后来怎么都弄不好同步，只好放弃了，等有时间再搞一下看看。不过随便尝试了一下windows下搭建，还比较顺利的成功了，虽然过程中也出现很多曲折。">
+  <meta name="description" content="启动mongodb时，提示Unclean shutdown detected mongodb，解决方法很简单
+mongod --repair --dbpath D:\MongoDB\data\db">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Hello World"/>
+  <meta property="og:title" content="mongodb显示Unclean shutdown detected mongodb"/>
   <meta property="og:site_name" content="22:34"/>
 
   
@@ -121,11 +122,11 @@
           
 <div class="date">
 
-<time datetime="2014-02-13T07:21:21.000Z"
+<time datetime="2014-02-21T01:47:02.000Z"
       
       data-updated="true"
        itemprop="datePublished">
-  2月 13 2014
+  2月 21 2014
 </time>
 
 
@@ -140,8 +141,11 @@
 
           
 	</div>
-        <h1 class="title" itemprop="name">Hello World</h1>
-      	<div class="entry-content" itemprop="articleBody"><p>本来是用阿里云搭的hexo，后来怎么都弄不好同步，只好放弃了，等有时间再搞一下看看。不过随便尝试了一下windows下搭建，还比较顺利的成功了，虽然过程中也出现很多曲折。</p>
+        <h1 class="title" itemprop="name">mongodb显示Unclean shutdown detected mongodb</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>启动mongodb时，提示<code>Unclean shutdown detected mongodb</code>，解决方法很简单</p>
+<figure class="highlight"><pre>mongod --repair --dbpath D:<span class="command">\MongoDB</span><span class="command">\data</span><span class="command">\db</span>
+</pre></figure>
+
 </div>
 
 
