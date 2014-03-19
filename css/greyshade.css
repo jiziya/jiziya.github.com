@@ -10,7 +10,7 @@ body {
 }
 ::selection,
 ::-webkit-selection {
-  background: #f15501;
+  background: #333;
   color: #fff;
 }
 #header {
