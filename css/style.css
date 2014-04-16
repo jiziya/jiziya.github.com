@@ -1187,7 +1187,8 @@ body {
   color: #333;
 }
 ::selection,
-::-webkit-selection {
+::-webkit-selection,
+*::-moz-selection {
   background: #333;
   color: #fff;
 }
